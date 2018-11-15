@@ -1,0 +1,55 @@
+
+body{
+    background-image: url("img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+.logo{
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+hr{
+    width: 30%;
+}
+.center{
+    display: flex;
+    justify-content:center;
+  align-items: center;
+    flex-direction: column;
+    height: 100%;  
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+  font-size: 20px;  
+}
+a{
+    color: white;
+}
+footer{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    align-items: flex-end;
+
+}
+@media only screen and (max-width: 1100px) {
+  footer{
+      justify-content: center;
+  } 
+
+    }
+    @media only screen and (max-width: 400px) {
+        h1{
+            text-align: center;
+        } 
+      
+          }
